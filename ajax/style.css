@@ -1,0 +1,66 @@
+/*GENERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #182D3D;
+}
+
+
+/*UTILITY*/
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 1270px;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+/*HEADER*/
+header {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #132431;
+    padding: 10px;
+}
+
+.logo {
+    width: 4%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/*MAIN*/
+main {
+    margin-top: 50px;
+}
+
+main .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .cards {
+    width: 400px;
+    text-align: center;
+    padding: 30px 60px;
+    color: #fff;
+    background-color: #000;
+    margin-bottom: 40px;
+}
+
+main .cards img {
+    width: 90%;
+    margin-bottom: 30px;
+}
