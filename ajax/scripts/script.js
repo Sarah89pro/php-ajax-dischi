@@ -10,7 +10,7 @@ const app = new Vue ({
     created() {
         //Api
         axios
-            .get('http://localhost/php-ajax-dischi/ajax/scripts/database.php')
+            .get('http://localhost/php-ajax-dischi/ajax/scripts/get-data.php')
             .then(res => {
                 console.log(res.data);
                 this.albums = res.data;
